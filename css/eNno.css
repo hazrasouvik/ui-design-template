@@ -1,0 +1,170 @@
+.collapse {
+  margin-left: 550px;
+}
+
+.navbar {
+  background-color: rgba(13, 180, 189, 255);
+}
+
+.navbar-brand {
+  color: white;
+  margin-left: 140px;
+}
+
+.nav-link:hover {
+  color: white;
+  background-color: rgba(54, 202, 213, 255);
+  transition-duration: 1s;
+}
+
+.nav-link {
+  font-weight: bold;
+  color: white;
+}
+
+h2 {
+  text-align: center;
+}
+
+h5 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}
+
+.textcolor {
+  color: rgba(13, 180, 189, 255);
+}
+.center {
+  color: rgba(13, 180, 189, 255);
+  text-align: center;
+  width: 100%;
+}
+
+.buttoncenter1 {
+  margin: 0;
+  position: absolute;
+  left: 26%;
+  -ms-transform: translate(-26%, 0%);
+  transform: translate(-26%, 0%);
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  text-align: center;
+  cursor: pointer;
+}
+
+.buttoncenter2 {
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translate(-50%, 0%);
+  transform: translate(-50%, 0%);
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  text-align: center;
+  cursor: pointer;
+}
+
+.buttoncenter3 {
+  margin: 0;
+  position: absolute;
+  left: 74%;
+  -ms-transform: translate(-74%, 0%);
+  transform: translate(-74%, 0%);
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  text-align: center;
+  cursor: pointer;
+}
+
+.LeftAlign {
+  text-align: left !important;
+}
+
+.RightAlign {
+  text-align: right !important;
+}
+
+.foot {
+  background-color: rgba(13, 180, 189, 255) !important;
+}
+
+footer .fab {
+  margin: 8px;
+  color: whitesmoke;
+}
+
+footer .fas {
+  padding: 10px;
+  color: whitesmoke;
+}
+
+.TextWhite {
+  color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  .buttoncenter1 {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+
+  .buttoncenter2 {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .buttoncenter3 {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .navbar-brand {
+    color: white;
+    margin-left: 0px;
+  }
+
+  footer .fab {
+    margin: 3px;
+    color: whitesmoke;
+  }
+
+  footer .fas {
+    padding: 3px;
+    color: whitesmoke;
+  }
+}
